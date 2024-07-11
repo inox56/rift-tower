@@ -6,22 +6,22 @@ using static UnityEditor.Progress;
 [CreateAssetMenu(fileName = "EnemiesDatabase", menuName = "Database/Enemies Database", order = 2)]
 public class EnemiesDatabase : ScriptableObject
 {
-    [SerializeField] private EnemyMetaAttributes[] enemyMetaAttributes = new EnemyMetaAttributes[0];
+    [SerializeField] private EnemyMetaData[] enemyMetaData = new EnemyMetaData[0];
 
-    public EnemyMetaAttributes[] EnemyMetaAttributes { get { return enemyMetaAttributes; } }
+    public EnemyMetaData[] EnemyMetaData { get { return enemyMetaData; } }
 
-    public EnemyMetaAttributes getEnemyMetaAttributeById(int id)
+    public EnemyMetaData getEnemyMetaAttributeById(int id)
     {
-        foreach (var enemy in enemyMetaAttributes)
+        foreach (var enemy in enemyMetaData)
         {
             if (enemy.Id == id) return enemy;
         }
         return null;
     }
 
-    public EnemyMetaAttributes getEnemyMetaAttributeByName(string name)
+    public EnemyMetaData getEnemyMetaAttributeByName(string name)
     {
-        foreach (var enemy in enemyMetaAttributes)
+        foreach (var enemy in enemyMetaData)
         {
             if (enemy.Name == name) return enemy;
         }
@@ -30,7 +30,7 @@ public class EnemiesDatabase : ScriptableObject
 
     public Enemy GetEnemyPrefabByID(int id)
     {
-        foreach (EnemyMetaAttributes entry in enemyMetaAttributes)
+        foreach (EnemyMetaData entry in enemyMetaData)
         {
             if (entry.Id == id)
             {

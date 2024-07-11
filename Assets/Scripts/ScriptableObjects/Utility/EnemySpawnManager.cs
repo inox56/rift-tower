@@ -45,7 +45,7 @@ public class EnemySpawnManager : MonoBehaviour
         poolDictionary = new Dictionary<string, Queue<GameObject>>();
         HandleMinuteChanged(0);
 
-        StartCoroutine(SpawnEnemyWithDelay());
+        //StartCoroutine(SpawnEnemyWithDelay());
     }
 
     public void fillMinuteSpawnerDictionnary()
@@ -199,7 +199,7 @@ public class EnemySpawnManager : MonoBehaviour
         CleanQueues();
         poolDictionary = new Dictionary<string, Queue<GameObject>>();
         List<string> list = minuteSpawnerDictionnary[topMinute];
-        EnemyMetaAttributes currentEnemy = null;
+        EnemyMetaData currentEnemy = null;
         Vector3 spawnPosition = new Vector3(-100, 50, 0);
         for (int i = 0; i < list.Count; i++)
         {

@@ -2,8 +2,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using static UnityEditor.Progress;
 
-[CreateAssetMenu(fileName = "EnemiesMetaData", menuName = "MetaData/Enemy Meta Data", order = 1)]
-public class EnemyMetaAttributes : ScriptableObject
+[CreateAssetMenu(fileName = "EnemiesMetaData", menuName = "MetaData/Enemy Meta Data", order = 2)]
+public class EnemyMetaData : ScriptableObject
 {
     [SerializeField] private int id = -1;
     [SerializeField] private new string name = "New name";
