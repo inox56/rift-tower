@@ -15,5 +15,5 @@ MonoBehaviour:
   id: 1001
   name: turretB
   icon: {fileID: 21300000, guid: 670d84e741a321f42a96a9e5792d2317, type: 3}
-  buildingPrefab: {fileID: 2632363190370060639, guid: 1b648ed1f13a17b4494308a27afdc45a, type: 3}
+  buildingPrefab: {fileID: 7796080347298206299, guid: 1b648ed1f13a17b4494308a27afdc45a, type: 3}
   maxInstancesAmount: 2

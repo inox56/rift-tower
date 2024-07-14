@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 1975521271983483158}
   - component: {fileID: 1135668739035739441}
   - component: {fileID: 3759977893603083635}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: type2
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110,7 +110,7 @@ MonoBehaviour:
   levelManager: {fileID: 0}
   enemySpawnManager: {fileID: 0}
   agent: {fileID: 1135668739035739441}
-  minutePrint: 2
+  minutePrint: 0
 --- !u!195 &1135668739035739441
 NavMeshAgent:
   m_ObjectHideFlags: 0

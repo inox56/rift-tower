@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ecd7135c863b9f40a09ac266f5aa5c4, type: 3}
   m_Name: BuildingsDatabase
   m_EditorClassIdentifier: 
-  buildingMetaData: []
+  buildingMetaData:
+  - {fileID: 11400000, guid: 5a9374adb65a2f34183bca86f84491a9, type: 2}
+  - {fileID: 11400000, guid: bd1ca96b3b3f86044a82a8604de61bdd, type: 2}

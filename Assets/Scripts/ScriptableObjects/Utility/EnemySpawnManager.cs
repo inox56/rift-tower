@@ -45,7 +45,7 @@ public class EnemySpawnManager : MonoBehaviour
         poolDictionary = new Dictionary<string, Queue<GameObject>>();
         HandleMinuteChanged(0);
 
-        //StartCoroutine(SpawnEnemyWithDelay());
+        StartCoroutine(SpawnEnemyWithDelay());
     }
 
     public void fillMinuteSpawnerDictionnary()
