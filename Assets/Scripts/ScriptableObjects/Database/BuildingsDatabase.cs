@@ -19,7 +19,7 @@ public class BuildingsDatabase : ScriptableObject
         return null;
     }
 
-    public BuildingMetaData getEnemyMetaDataByName(string name)
+    public BuildingMetaData getBuildingMetaDataByName(string name)
     {
         foreach (var building in buildingMetaData)
         {

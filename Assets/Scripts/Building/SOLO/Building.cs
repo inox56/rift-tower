@@ -8,14 +8,20 @@ using UnityEngine.Playables;
 public class Building : MonoBehaviour
 {
 
+    [SerializeField] private int ConstructionDelayPhase = 1;
+    [SerializeField] private float ConstructionDelayTime = 1;
+    [SerializeField] private float baseCooldown = 7.0f;
     [SerializeField] private float baseDamage = 7.0f;
     [SerializeField] private float baseLife = 10;
 
     private SpriteRenderer spriteRenderer;
     private Color originalColor;
+    
 
     [SerializeField] private float damage;
     [SerializeField] private float life;
+    [SerializeField] private float cooldown;
+    [SerializeField] private string type;
 
     [SerializeField] private bool isPlacable;
     [SerializeField] private bool isPlaced;

@@ -4,5 +4,35 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menus/00 - Main Menu.unity
+    guid: 056c79af6ef506e49b65c2af0c8787dd
+  - enabled: 1
+    path: Assets/Scenes/Menus/01 - Local Menu.unity
+    guid: c472ffc66c6055f4190e9cb7c189fbc5
+  - enabled: 1
+    path: Assets/Scenes/Menus/02.01 - Host Menu.unity
+    guid: 0537561b8af44f246853500f4c4aa85b
+  - enabled: 1
+    path: Assets/Scenes/Menus/02.02 - Join Menu.unity
+    guid: 06c114f672bdd004ea5cee87212db6ca
+  - enabled: 1
+    path: Assets/Scenes/Menus/02.02.01 - Join Lobby.unity
+    guid: 5e3e0416f108b8f4bad1e037ed8041fc
+  - enabled: 1
+    path: Assets/Scenes/Menus/02.02.02 - Join Code.unity
+    guid: 276847f74c787d04db48a7a21ad96149
+  - enabled: 1
+    path: Assets/Scenes/Menus/02.02.03 - Join Steam.unity
+    guid: 9c7a73a3f1bd291499fe55d23fbab215
+  - enabled: 1
+    path: Assets/Scenes/Menus/03 - Encyclopedia Menu.unity
+    guid: 22977bd2b02727e4ebc5fd206f3defcc
+  - enabled: 1
+    path: Assets/Scenes/Menus/04 - Options Menu.unity
+    guid: c6188df0c9981614d9ab4dcd7c41d4ad
+  - enabled: 1
+    path: Assets/Scenes/Menus/02 - Online Menu.unity
+    guid: 2ccf3a17f262cc44d83a20f50e254635
   m_configObjects: {}
