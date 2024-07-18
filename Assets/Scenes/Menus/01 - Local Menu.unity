@@ -394,6 +394,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f7c018bb4f5a6146896fd6fafe17f33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _mainMenuFirst: {fileID: 0}
+  _LocalMenuFirst: {fileID: 0}
+  _OnlineMenuFirst: {fileID: 0}
+  _HostMenuFirst: {fileID: 0}
+  _JoinMenuFirst: {fileID: 0}
+  _EncyclopediaMenuFirst: {fileID: 0}
+  _OptionMenuFirst: {fileID: 0}
+  _LocalLobbyMenuFirst: {fileID: 0}
 --- !u!1 &659633770
 GameObject:
   m_ObjectHideFlags: 0
@@ -668,7 +676,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 1869005650}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!1 &1403265610
@@ -960,7 +968,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_SelectedColor: {r: 1, g: 0, b: 0, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -1091,9 +1099,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.8792453, g: 0.09787818, b: 0.09787818, a: 1}
+    m_HighlightedColor: {r: 0.4811321, g: 0.4811321, b: 0.4811321, a: 1}
     m_PressedColor: {r: 0.24835174, g: 0.45265335, b: 0.87169814, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_SelectedColor: {r: 1, g: 0, b: 0, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -1113,9 +1121,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 614619411}
         m_TargetAssemblyTypeName: mainMenuManager, Assembly-CSharp
-        m_MethodName: PlayLocal
+        m_MethodName: MenuLobbyLocal
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1375,9 +1383,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0, g: 0.27166605, b: 1, a: 1}
-    m_PressedColor: {r: 0.9942949, g: 1, b: 0, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.4811321, g: 0.4811321, b: 0.4811321, a: 1}
+    m_PressedColor: {r: 0.24835174, g: 0.45265335, b: 0.87169814, a: 1}
+    m_SelectedColor: {r: 1, g: 0, b: 0, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -1397,9 +1405,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 614619411}
         m_TargetAssemblyTypeName: mainMenuManager, Assembly-CSharp
-        m_MethodName: PlayMulti
+        m_MethodName: MenuLobbyLocal
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

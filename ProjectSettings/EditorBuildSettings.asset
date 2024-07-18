@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menus/02 - Online Menu.unity
     guid: 2ccf3a17f262cc44d83a20f50e254635
+  - enabled: 1
+    path: Assets/Scenes/CharacterSelection/LocalSelection.unity
+    guid: a6d5a31f0573b4c48922c13465ab4c44
   m_configObjects: {}
