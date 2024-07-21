@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menus/01 - Local Menu.unity
     guid: c472ffc66c6055f4190e9cb7c189fbc5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Menus/02.01 - Host Menu.unity
     guid: 0537561b8af44f246853500f4c4aa85b
   - enabled: 1
@@ -38,4 +38,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CharacterSelection/LocalSelection.unity
     guid: a6d5a31f0573b4c48922c13465ab4c44
+  - enabled: 1
+    path: Assets/Scenes/CharacterSelection/LocalSelection_WAN.unity
+    guid: 4914df09508fb1e418d5799ebd936000
   m_configObjects: {}

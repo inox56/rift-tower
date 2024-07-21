@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: RedGlobule
   m_EditorClassIdentifier: 
   id: 3001
+  abilitiesId: aa0f0000ab0f0000
+  ability1Id: 4010
+  ability2Id: 4011
   name: RedGlobule
   icon: {fileID: 21300000, guid: 6d7b51f913942c843af4513de1c1e79b, type: 3}
   imcon: {fileID: 5539657674221642869, guid: 7e2174c793d7a5c45adf0f1a9f46112a, type: 3}

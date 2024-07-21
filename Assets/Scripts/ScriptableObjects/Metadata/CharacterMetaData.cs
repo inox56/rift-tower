@@ -7,6 +7,9 @@ using static UnityEditor.Progress;
 public class CharacterMetaData : ScriptableObject
 {
     [SerializeField] private int id = -1;
+    [SerializeField] private List<int> abilitiesId;
+    [SerializeField] private int ability1Id = -1;
+    [SerializeField] private int ability2Id = -1;
     [SerializeField] private new string name = "New name";
     [SerializeField] private Sprite icon;
     [SerializeField] private Image imcon;
@@ -14,6 +17,9 @@ public class CharacterMetaData : ScriptableObject
     [SerializeField] private bool isUnlocked = false;
 
     public int Id => id;
+    public List<int> AbilitiesId => abilitiesId;
+    public int Ability1Id => ability1Id;
+    public int Ability2Id => ability2Id;
     public string Name => name;
     public Sprite Icon => icon;
     public Image Imcon => imcon;

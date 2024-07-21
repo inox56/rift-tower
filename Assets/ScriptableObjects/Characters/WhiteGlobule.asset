@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: WhiteGlobule
   m_EditorClassIdentifier: 
   id: 3000
+  abilitiesId: a00f0000a10f0000
+  ability1Id: 4000
+  ability2Id: 4001
   name: WhiteGlobule
   icon: {fileID: 21300000, guid: 4a6f68fb6f54e374598ac3da8106e4ef, type: 3}
   imcon: {fileID: 5539657674221642869, guid: fe7ed512fc059224b810d4202a06b276, type: 3}
