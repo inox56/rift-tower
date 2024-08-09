@@ -24,10 +24,10 @@ public class mainMenuManager : MonoBehaviour
 
         EventSystem.current.SetSelectedGameObject(_mainMenuFirst);
     }
-    public void MenuLocal()
+    public void MenuLobbyLocal()
     {
         PlayerPrefs.SetString("gameType", "local");
-        GameSceneManager.Instance.ChangeSceneInLocalGame("01 - Local Menu");
+        GameSceneManager.Instance.ChangeSceneInLocalGame("LocalSelection");
         EventSystem.current.SetSelectedGameObject(_LocalMenuFirst);
     }
 
@@ -37,10 +37,7 @@ public class mainMenuManager : MonoBehaviour
         GameSceneManager.Instance.ChangeSceneInLocalGame("02 - Online Menu");
         EventSystem.current.SetSelectedGameObject(_OnlineMenuFirst);
     }
-    public void MenuMultiHost()
-    {
-        GameSceneManager.Instance.ChangeSceneInLocalGame("02.01 - Host Menu");
-    }
+
     public void MenuMultiJoin()
     {
         GameSceneManager.Instance.ChangeSceneInLocalGame("02.02 - Join Menu");
@@ -52,11 +49,6 @@ public class mainMenuManager : MonoBehaviour
     public void MenuOptions()
     {
         GameSceneManager.Instance.ChangeSceneInLocalGame("04 - Options Menu");
-    }
-
-    public void MenuLobbyLocal()
-    {
-        GameSceneManager.Instance.ChangeSceneInLocalGame("LocalSelection");
     }
 
     public void Quit()
